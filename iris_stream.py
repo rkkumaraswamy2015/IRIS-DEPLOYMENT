@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
-import scikit_learn 
+import sklearn
 
 st.markdown('<h1 style="color:green;">IRIS FLOWER PREDICTION APP</h1>', unsafe_allow_html=True)
 with open("C:\DS_project\Deployment\logreg_iris.pkl", "rb") as file:
