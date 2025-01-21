@@ -4,7 +4,7 @@ import pickle
 import sklearn
 
 st.markdown('<h1 style="color:green;">IRIS FLOWER PREDICTION APP</h1>', unsafe_allow_html=True)
-with open("C:\DS_project\Deployment\logreg_iris.pkl", "rb") as file:
+with open("logreg_iris.pkl", "rb") as file:
        model=pickle.load(file)
 st.write("Enter the feature details:")
 sepal_length = st.slider("SEPAL_LENGTH", min_value=1.0, max_value=10.0, step=0.05)
